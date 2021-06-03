@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 btn.addEventListener('click', () => {
     const selected = options.selectedIndex;
     input.value = input.value.trim();
-    if (input.value.length < 1) {
+    if (input.value.length === 0) {
         input.style.borderColor = 'red';
     } else {
         input.style.borderColor = 'green';
