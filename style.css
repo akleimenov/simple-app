@@ -20,9 +20,17 @@ select:focus {
     background-color: white;
 }
 
+h2,
 .bold {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
+}
+
+h2:hover,
+.bold:hover {
+    transform: scale(1.5);
+    transition: all 0.3s;
+    color: rgb(0, 17, 255);
 }
 
 button {
