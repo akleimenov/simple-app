@@ -13,6 +13,13 @@ select {
     padding: 5px;
 }
 
+select:active,
+select:focus {
+    outline: none;
+    border-color: rgb(0, 17, 255);
+    background-color: white;
+}
+
 .bold {
     font-size: 16px;
     font-weight: 600;
@@ -20,6 +27,7 @@ select {
 
 button {
     cursor: pointer;
+    background-color: transparent;
 }
 
 input,
@@ -27,7 +35,9 @@ button {
     padding: 5px;
 }
 
-input:focus {
-    border: none;
-    border-color: aqua;
+input:focus,
+button:focus,
+button:hover {
+    outline: none;
+    border-color: rgb(0, 17, 255);
 }
